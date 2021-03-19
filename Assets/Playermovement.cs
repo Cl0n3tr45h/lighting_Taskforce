@@ -5,7 +5,6 @@ using UnityEngine;
 public class Playermovement : MonoBehaviour
 {
     public float speed = 7.5f;
-    public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
     public Transform playerCameraParent;
     public float lookSpeed = 2.0f;
@@ -14,6 +13,8 @@ public class Playermovement : MonoBehaviour
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     Vector2 rotation = Vector2.zero;
+    public Light FlashLight;
+    public bool FlashOn = true;
 
     [HideInInspector]
     public bool canMove = true;
@@ -52,6 +53,20 @@ public class Playermovement : MonoBehaviour
             rotation.x = Mathf.Clamp(rotation.x, -lookXLimit, lookXLimit);
             playerCameraParent.localRotation = Quaternion.Euler(rotation.x, 0, 0);
             transform.eulerAngles = new Vector2(0, rotation.y);
+        }
+
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            if(FlashOn)
+            {
+                FlashLight.gameObject.SetActive(false);
+                FlashOn = false;
+            }
+            else
+            {
+                FlashLight.gameObject.SetActive(true);
+                FlashOn = true;
+            }
         }
     }
 }
