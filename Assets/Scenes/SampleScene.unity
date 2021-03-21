@@ -384,9 +384,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: 502 Curtains (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d20970f4679e3e7408ac254d603d7049, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1061139408784286251, guid: d20970f4679e3e7408ac254d603d7049, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d20970f4679e3e7408ac254d603d7049, type: 3}
@@ -3590,6 +3594,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 502 Curtains
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d20970f4679e3e7408ac254d603d7049, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1061139408784286251, guid: d20970f4679e3e7408ac254d603d7049, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d20970f4679e3e7408ac254d603d7049, type: 3}
 --- !u!4 &689814545 stripped
@@ -3988,8 +4000,8 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.8490566, g: 0.46539962, b: 0.06007475, a: 1}
-  m_Intensity: 0.97
-  m_Range: 14.010706
+  m_Intensity: 4
+  m_Range: 15.599689
   m_SpotAngle: 21.692692
   m_InnerSpotAngle: 21.692692
   m_CookieSize: 10
@@ -4027,7 +4039,7 @@ Light:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4045,8 +4057,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733374654}
-  m_LocalRotation: {x: 0.8847357, y: -0.21767549, z: 0.40965968, w: 0.04515638}
-  m_LocalPosition: {x: -1.622, y: 1.235, z: -6.467}
+  m_LocalRotation: {x: 0.94714016, y: 0.07809606, z: 0.28256494, w: 0.13032088}
+  m_LocalPosition: {x: -2.906, y: 1.639, z: -3.764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8342,7 +8354,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1639468334
 Transform:
@@ -8788,7 +8800,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.8490566, g: 0.46539962, b: 0.06007475, a: 1}
-  m_Intensity: 0.97
+  m_Intensity: 4
   m_Range: 18.292358
   m_SpotAngle: 21.692692
   m_InnerSpotAngle: 21.692692
@@ -8827,7 +8839,7 @@ Light:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -8845,8 +8857,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687683102}
-  m_LocalRotation: {x: 0.9208311, y: 0.09826792, z: 0.368653, w: 0.08067593}
-  m_LocalPosition: {x: 0.5343, y: 0.9098, z: 1.0232}
+  m_LocalRotation: {x: 0.94714016, y: 0.07809606, z: 0.28256494, w: 0.13032088}
+  m_LocalPosition: {x: -1.336, y: 1.336, z: 3.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10113,7 +10125,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1799885932
 Transform:
@@ -10736,6 +10748,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cab935770cf31094090c08c68e04f3ca, type: 3}
       propertyPath: m_Name
       value: uvTesting
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab935770cf31094090c08c68e04f3ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: cab935770cf31094090c08c68e04f3ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab935770cf31094090c08c68e04f3ca, type: 3}
@@ -11566,7 +11586,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.8490566, g: 0.46539962, b: 0.06007475, a: 1}
-  m_Intensity: 0.97
+  m_Intensity: 4
   m_Range: 26.780241
   m_SpotAngle: 17.488844
   m_InnerSpotAngle: 15.268554
@@ -11605,7 +11625,7 @@ Light:
     serializedVersion: 2
     m_Bits: 55
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -11624,7 +11644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041046414}
   m_LocalRotation: {x: 0.94714016, y: 0.07809606, z: 0.28256494, w: 0.13032088}
-  m_LocalPosition: {x: 7.569, y: 1.117, z: 1.967}
+  m_LocalPosition: {x: 5.484, y: 1.878, z: 4.993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
