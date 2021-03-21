@@ -787,6 +787,7 @@ Transform:
   - {fileID: 442423282}
   - {fileID: 1783656291}
   - {fileID: 1436462538}
+  - {fileID: 1656540353}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2197,6 +2198,7 @@ Transform:
   - {fileID: 713481294}
   - {fileID: 2140175671}
   - {fileID: 578487899}
+  - {fileID: 1813185175}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5419,6 +5421,52 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.44, y: -0.43, z: 0.47}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1579880316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1579880318}
+  - component: {fileID: 1579880317}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1579880317
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579880316}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 1.0055528, y: -0.21486217, z: 0.18728542}
+  - {x: -2.4970233, y: -0.48093063, z: 2.1872854}
+  - {x: -2.4970233, y: -0.6877681, z: -0.13523197}
+  - {x: -2.2988095, y: -0.3479678, z: 3.5853825}
+  - {x: 0.9266281, y: -0.6811024, z: 3.1556182}
+  m_Dering: 1
+--- !u!4 &1579880318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579880316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.191, y: 0.876, z: -9.412}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1603980463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5567,6 +5615,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aa2aee91a5e0064299c349927dd40d4, type: 3}
   m_PrefabInstance: {fileID: 1645015110}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1656540352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656540353}
+  - component: {fileID: 1656540354}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1656540353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656540352}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.192, y: 0.051, z: -3.0433176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 331921077}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!220 &1656540354
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656540352}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 8.306373, y: 0.55786586, z: 2.5532546}
+  - {x: 8.712461, y: 0.17711455, z: -1.5706334}
+  - {x: 6.682306, y: 0.4059174, z: -1.663547}
+  - {x: 1.2758965, y: 0.64490575, z: 2.6802604}
+  - {x: -0.5126382, y: 0.42714256, z: -1.6946025}
+  - {x: -0.6117399, y: 0.6079191, z: 2.693615}
+  - {x: 5.898678, y: 0.46460092, z: 2.5532546}
+  - {x: 5.029966, y: 0.48114228, z: -1.5706334}
+  - {x: 3.1112397, y: 0.42714256, z: -1.6946025}
+  - {x: 3.012138, y: 0.46729067, z: 2.693615}
+  m_Dering: 1
 --- !u!1001 &1700222431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6625,6 +6724,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.266, y: 0.2332, z: 0.215}
   m_Center: {x: 0.123, y: 0.1166, z: 0.09749952}
+--- !u!1 &1813185174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1813185175}
+  - component: {fileID: 1813185176}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1813185175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813185174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.426, y: 0.135, z: -6.992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 698491670}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!220 &1813185176
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813185174}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 3.2865386, y: 0.3446324, z: 1.6568995}
+  - {x: 2.8466358, y: 0.37470388, z: -2.3594112}
+  - {x: -0.8763008, y: 0.3691542, z: 0.9205847}
+  - {x: -1, y: 0.36384463, z: -2.7649913}
+  m_Dering: 1
 --- !u!1 &1815655692
 GameObject:
   m_ObjectHideFlags: 0
